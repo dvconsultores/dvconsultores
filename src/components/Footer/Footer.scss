@@ -1,0 +1,71 @@
+@import "../../styles/app";
+.v-footer {
+  .row {
+    justify-content: center;
+    @include media-breakpoint-up(sm) {
+      justify-content: space-between;
+    }
+  }
+}
+
+/////////////////////////////////////////////////////////
+#footerColor {
+  overflow: hidden;
+}
+#contenedorFooter {
+  font-family: 'Fira Sans Condensed';
+  font-style: normal;
+  color: var(--color) !important;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+.contenedorFooterLeft {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footerText {
+  font-family: 'Kanit', sans-serif !important;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 1.2165375rem;
+  text-align: center;
+
+  /* Inside auto layout */
+  margin: 0.825rem 0px;
+}
+
+.contenedorIconosFooter {
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  z-index: 10;
+}
+.iconosFooter {
+  width: 1.986875rem !important;
+  height: 1.986875rem !important;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+.contenedorFooterRight {
+  position: relative;
+  width: 216.46px;
+}
+#logoFooter {
+  width: 200px;
+  height: 190px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 3;
+}
+#margenFooter {
+  // padding-bottom: 130px !important;
+}

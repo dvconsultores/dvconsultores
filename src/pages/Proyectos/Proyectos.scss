@@ -1,0 +1,127 @@
+.divrow {
+    display: flex;
+    flex-direction: row;
+  }
+  .divcol {
+    display: flex;
+    flex-direction: column;
+  }
+  .start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .space {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .spacea {
+    display: flex;
+    justify-content: space-around;
+  }
+  .spacee {
+    display: flex;
+    justify-content: space-evenly;
+  }          
+  .margenTop{
+    margin-top: 180px;
+  }
+  
+  .botones{    
+    background-color: transparent !important;
+    border: 1px solid var(--color) !important;  
+    color: var(--color) !important;
+    font-size: 15px !important;
+    font-family: 'Fira Sans Condensed';
+    font-style: normal;  
+    border-radius: 6px; 
+    font-weight: 600;   
+}
+.botones:hover{
+  background-color: #EE732A!important;
+  color: #fff !important;
+  border: 0px !important; 
+} 
+.container{  
+  box-shadow: -2px 7px 22px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  background-image: url("../../assets/images/Mask group (8).png");
+  background-size: cover; 
+  background-color: var(--colorCartas2); 
+}
+.moverLogo{
+  margin-left: -50px;  
+  background-color: #fff;
+  border-radius: 5px;
+  height: 80px;
+  background-color: var(--colorCartas3); 
+}
+.redImage{
+  width: 80%;
+}
+.divNaranja{
+  background-color: #EE732A;
+  border-radius: 10px; 
+  max-width: 40px !important; 
+  height: 40px;  
+  cursor: pointer;
+}
+.image3{
+  width: 270px !important;
+  height: 250px !important;
+  margin-left: 20px; 
+  margin-top: 14px; 
+  margin-bottom: 4px; 
+}
+.parrafoProyectos{
+  font-family: 'Fira Sans Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 18px;
+  color: var(--clr);
+  margin-top: 5px;
+}
+.herramientasUsadas{
+  font-family: 'Fira Sans Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;  
+  color: var(--color);
+  margin-top: 5px;
+}
+.logos{
+  width: 30px;  
+}
+.moverLogos{
+  margin-left: 160px;
+  margin-top: -35px;
+}  
+.linkDeAcceso{
+  cursor: pointer;
+  font-family: 'Fira Sans Condensed';
+  font-style: normal; 
+  font-size: 15px; 
+  padding-right: 0px;  
+  span{
+    color: #EE732A;
+    font-weight: 700;
+  }  
+  .mdi-arrow-right::before{
+    color: #EE732A; 
+  }
+}
+.moverTexto{
+  margin-top: -200px;
+}

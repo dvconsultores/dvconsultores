@@ -1,0 +1,15 @@
+module.exports = {
+    messages: {
+      US: {
+       text: 'Join Our Community',
+      },
+      ES: {
+       text: 'Unete a nuestra comunidad',
+      },
+      CH: {
+        text: '加入我们的社区',
+          
+    }
+    },
+  }
+    
