@@ -366,7 +366,7 @@ font-weight: 600 !important;
 // }
 #ajustarHeader {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   display: inline-block;  
   a:hover{    
