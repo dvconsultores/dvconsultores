@@ -133,6 +133,9 @@
     font-weight: 400;
     margin-bottom: 16px;
     line-height: 1;
+    @media (min-width: 1700px) {
+      font-size: 100px !important; 
+    }
     @media (max-width: 1264px) {
       font-size: 60px !important;   
     }

@@ -3,15 +3,15 @@
     <!-- seccion 1 -->
     <aside id="home">
       <v-row>
-        <v-col cols="12" sm="6" md="6" lg="6">
+        <v-col cols="12" sm="6" md="6" lg="6" xl="6" >
           <img
             class="ajustarCubo"
             src="../../assets/images/Group 38.png"
             alt="cubo principal"
           />
         </v-col>
-        <v-col cols="12" sm="3" md="3" lg="4" >
-          <div class="ajustarTitlePrincipal">
+        <v-col cols="12" sm="3" md="3" lg="4" xl="">
+          <div class="ajustarTitlePrincipal col-lg-6">
             <h1 class="mb-0">{{ $t("titleTecnologia") }}</h1>
             <h1 class="titleOrientada">
               {{ $t("titleOrientada") }}
@@ -466,12 +466,10 @@
 </template>
 
 <script>
-import Alert from "@/pages/Alert/Alert.vue";
 export default {
   name: "Home",
   i18n: require("./i18n"),
-  components: {
-    // Alert,
+  components: {    
   },
   mounted() {},
   data() {
