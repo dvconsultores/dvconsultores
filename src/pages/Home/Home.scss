@@ -1085,118 +1085,15 @@
 }
 .cubitoPequeño1{  
   position: absolute;
-  width: 15%;
-  left: 845px;
-  top: 550px;  
-  
-  @media (min-width: 1260px) {
-    top: 520px;
-    left: 780px;
-  }
-  @media (min-width: 1400px) {
-    top: 520px;
-    left: 850px;
-  }
-  @media (min-width: 1500px) {
-    top: 540px;
-    left: 920px;
-  }
-  @media (min-width: 1700px) {
-    width: 14%;
-    top: 660px;
-    left: 1110px;
-  }
-  @media (min-width: 1904px) {
-    width: 14%;
-    left: 1220px;
-    top: 660px;
-  }
-  @media (min-width: 2150px) {    
-    left: 1320px;
-    top: 660px;
-  }
-  @media (min-width: 2350px) { 
-    width: 12%;    
-    left: 1450px;
-    top: 660px;
-  }
-
-  @media (max-width: 1264px) {    
-    top: 470px;
-    left: 680px;
-  }
-  @media (max-width: 1120px) {   
-    top: 470px;
-    left: 660px;  
-  }
-  @media (max-width: 1050px) {   
-    top: 440px;
-    left: 600px;  
-  }
-  @media (max-width: 1000px) {   
-    top: 440px;
-    left: 580px;  
-  }
+  width: 16.5625em;
+  left: 0;
+  bottom: 0;
 }
 .cubitoPequeño2{
   position: absolute;
-  width: 15%;
-  left: 980px;
-  top: 500px;
-  
-  @media (min-width: 1260px) {
-    top: 480px;
-    left: 900px;
-  }
-  @media (min-width: 1400px) {
-    top: 480px;
-    left: 980px;
-  }
-  @media (min-width: 1500px) {
-    top: 480px;
-    left: 1060px;
-  }
-  @media (min-width: 1700px) {
-    width: 14%;
-    top: 580px;
-    left: 1240px;
-  }
-  @media (min-width: 1904px) {
-    width: 14%;
-    left: 1400px;
-    top: 580px;
-  }
-  @media (min-width: 2150px) {   
-    left: 1500px;
-    top: 580px;
-  }
-  @media (min-width: 2350px) {  
-    width: 12%; 
-    left: 1650px;
-    top: 580px;
-  }
-
-  @media (max-width: 1264px) {    
-    top: 430px;
-    left: 780px;  
-  }
-  @media (max-width: 1120px) {   
-    top: 430px;
-    left: 760px;  
-  }
-  @media (max-width: 1050px) {   
-    top: 400px;
-    left: 700px;  
-  }
-  @media (max-width: 1000px) {       
-    left: 670px;  
-  }
-}
-.dudas{ 
-  background: var(--letraFooter);
-  box-shadow: 8px 7px 28px rgba(0, 0, 0, 0.25);    
-  border-radius: 10px;
-  height: 90px;  
+  width: 16.5625em;
+  right: 0;
+  top: 0;
 }
 .titleServicios{
   margin-left: -80px;
@@ -1206,59 +1103,15 @@
   }
 }
 .Servicios1{
-position: absolute;
 background-color: #EE732A;
 background-image: url("../../assets/images/Mask group.png");
-width: 400px;
-height: 400px;
-border-top-left-radius: 10px;
-border-bottom-left-radius: 10px;
-
-@media (min-width: 1400px) {   
-  margin-top: -90px;
-}
-@media (min-width: 1550px) {   
-  margin-top: -150px;
-}
-@media (min-width: 1650px) {   
-  margin-top: -200px;
-}
-@media (min-width: 1750px) {   
-  margin-top: -250px;
-}
-@media (min-width: 1850px) {   
-  margin-top: -300px;
-}
-@media (min-width: 1950px) {   
-  margin-top: -300px;
-}
-
-
-@media (max-width: 1260px) {   
-  margin-top: 50px;
-}
-@media (max-width: 1186px) {   
-  margin-top: 90px;
-}
-@media (max-width: 1100px) {   
-  margin-top: 130px;
-}
-@media (max-width: 1050px) {   
-  margin-top: 170px;
-}
-@media (max-width: 980px) {   
-  margin-top: 100px;
-  width: 350px;
-  height: 350px;
-}
+max-width: 400px;
+aspect-ratio: 1 / 1;
+border-radius: 10px 0 0 10px;
+padding: 2em;
 img{
   width: 100%;
   transform: rotate(1.52deg);
-  margin-left: 20px;
-  margin-top: -30px;
-  @media (max-width: 980px) {   
-    width: 90%;
-  }
 }
 }
 .movTitle{
@@ -1269,30 +1122,15 @@ img{
   }
 }
 .Servicios2{
-  position: absolute;  
   background-color: #1F5E87;
   background-image: url("../../assets/images/CUBO DV 7.png");  
-  width: 400px;
-  height: 400px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;  
-  @media (max-width: 1186px) {   
-    margin-top: -13px;
-  }
-  @media (max-width: 980px) {  
-    margin-top: 36px;
-    width: 350px;
-    height: 350px;
-  }
+  max-width: 400px;
+  aspect-ratio: 1 / 1;
+  border-radius: 10px 10px 0 0;
+  padding: 2em;
   .imgservice2{
     z-index: 2;
     width: 90%;
-    margin-left: 25px;
-    margin-top: -10px;
-    @media (max-width: 980px) {  
-     width: 80%;
-    }
   }
   .burbujas{   
     width: 75%;
@@ -1316,26 +1154,13 @@ img{
   }
   .Servicios3{
     z-index: 2;
-    position: absolute;
     background-color: #022D3E;
     background-image: url("../../assets/images/Mask group (2).png");    
-    width: 400px;
-    height: 400px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    @media (max-width: 980px) {         
-      width: 350px;
-      height: 350px;
-    }
-    img{
-      width: 105%;      
-      margin-top: -10px;
-      @media (max-width: 980px) { 
-        margin-left: 20px;        
-        width: 95%;
-      }
-    }
+    max-width: 400px;
+    aspect-ratio: 1 / 1;
+    border-radius: 0 0 10px 10px;
+    padding: 2em;
+    img{width: 105%}
     }
     .titleServ3{
       margin-top: -40px; 
@@ -1354,6 +1179,7 @@ img{
       letter-spacing: 0.015em; //espacio entre letra y letra
       text-transform: uppercase;
       color: #FFFFFF;
+      margin-bottom: .5em;
       @media (max-width: 980px) {   
         font-size: 23px;
       }
@@ -1417,19 +1243,6 @@ img{
 .verMas{
   font-family: 'Fira Sans Condensed';
   font-style: normal;
-  margin-top: 300px;
-  margin-left: 400px; 
-  @media (max-width: 1150px) {
-    margin-top: 350px;   
-    margin-left: 300px; 
-  } 
-  @media (max-width: 1050px) {
-    margin-top: 380px;   
-    margin-left: 280px; 
-  } 
-  @media (max-width: 980px) {
-    margin-top: 330px;     
-  } 
   a span{
     color: #EE732A;
     font-weight: 700;
@@ -1441,7 +1254,7 @@ img{
 .verMasFotos{
   font-family: 'Fira Sans Condensed';
   font-style: normal;
-  margin-top: -80px; 
+  &:not(.aquino) {margin-top: -80px}
   margin-bottom: 70px;
 
   a span{
@@ -1456,7 +1269,6 @@ img{
   cursor: pointer;
   font-family: 'Fira Sans Condensed';
   font-style: normal;
-  margin-left: -10% !important;
   span{
     color: #EE732A;
     font-weight: 700;
@@ -1469,8 +1281,8 @@ img{
   margin-bottom: 30px;
 }
 .logoNear{
-  width: 95%;
-  padding-top: 13px;
+  // width: 95%;
+  // padding-top: 13px;
 }
 .titleProyectos{
   font-family: 'Fira Sans Condensed';
@@ -1492,20 +1304,13 @@ img{
   line-height: 18px;
   color: var(--clr);
   margin-top: 5px;
+  margin-bottom: 0 !important;
 }
 .tamañoFoto{  
   border-radius: 10px;
-  width: 160px;
-  height: 190px;  
-  cursor: pointer; 
-  @media (max-width: 1259px) {
-    width: 120px;
-    height: 150px;
-  }
-  @media (max-width: 959px) {
-    width: 100px;
-    height: 130px;
-  } 
+  width: calc(100% - 20.25px);
+  margin-left: auto;
+  cursor: pointer;
 }
 .tamañoFotoPopup{    
   border-radius: 10px;
@@ -1516,10 +1321,10 @@ img{
 .nameEquipo{
   color: var(--color2);
   font-family: 'Fira Sans Condensed';
-  font-style: normal;
 }
 .tamLinkedin{
-  width: 70%;
+  width: 3.1875em;
+  margin-left: 20.25px;
 }
 .servicesTitle{
   z-index: 10;
@@ -1561,9 +1366,6 @@ font-weight: 400 !important;
 font-size: 15px !important;
 line-height: 18px !important; 
 color: var(--clr) !important;
-padding-left: 80px !important;
-padding-right: 70px !important;
-padding-bottom: 55px !important;
 }
 .textoDialog1{
   font-family: 'Fira Sans Condensed' !important;
@@ -1654,3 +1456,250 @@ color: var(--clr);
 font-style: normal;
 }
 
+
+
+//////////////////////////////////////////////////////////
+///////////////// modificaciones herian //////////////////
+//////////////////////////////////////////////////////////
+#servicios {
+  display: grid;
+  @media (min-width: 880px) {
+    grid-template-columns: repeat(2, max-content);
+    grid-template-rows: repeat(4, 200px);
+    place-content: center;
+    place-items: center;
+  }
+  .subtitles {order: 0;margin-bottom: .5em;margin-inline: auto}
+  aside {
+    grid-row: span 2;
+    @media (max-width: 880px) {height: max-content !important}
+    &:nth-of-type(1) {
+      margin-right: auto;
+      @media (min-width:880px) {order: 2}
+    }
+    &:nth-of-type(2) {
+      margin-left: auto;
+      @media (min-width:880px) {order: 1}
+    }
+    &:nth-of-type(3) {
+      margin-right: auto;
+      @media (min-width:880px) {order: 3}
+    }
+  }
+  div.verMas {
+    margin-inline: auto;
+    margin-top: 2em;
+    @media (min-width:880px) {order: 4}
+  }
+}
+@layer layout {
+  h1 {
+    font-size: clamp(5em, 6vw, 6em) !important;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    span {
+      border-radius: 10px;
+      background-color: var(--color2);
+      color: var(--colorLetraFuture);
+      padding-inline: .25em !important;
+    }
+  }
+}
+#hero {
+  @media (min-width: 880px) {padding-top: calc(71px + 64px)}
+  & > section {
+    overflow: hidden;
+    @media (max-width: 880px) {flex-direction: column}
+  }
+  &-img {
+    width: min(100%,40em);
+    @media (min-width:880px) {
+      width: clamp(40em, 55vw, 55.48125em);
+      transform: translateY(-80px);
+    }
+  }
+  #right {gap: 1em;}
+  #container-cubitos {
+    position: relative;
+    height: calc(9.5625em * 2);
+    width: calc(12.4375em * 2);
+    @media (max-width: 880px) {margin-bottom: 6em}
+  }
+}
+
+#proyectos {
+  max-width: 66.1875em;
+  margin-inline: auto;
+  .subtitles {font-size: 3em !important;font-weight: 700 !important}
+  #content {
+    & > .v-card {
+      display: flex !important;
+      margin-bottom: 2em;
+      width: 56.6875em;
+      flex-wrap: wrap;
+      border-radius: 10px;
+      overflow: hidden;
+      img, .div2 {flex: 1 1}
+      img {max-width: 232px !important;padding: 2em !important}
+      .div2 {
+        position: relative !important;
+        padding: 1em 2em;
+        padding-right: 5em;
+        min-width: 350px;
+        .div3 {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          margin: auto;
+          width: 4.875em !important;
+        }
+      }
+    }
+  }
+}
+
+#container-tools {
+  max-width: 1020px;
+  margin-inline: auto;
+  gap: clamp(3em, 4vw, 4em);
+  .subtitles {margin-inline: auto}
+  .v-slide-group__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    padding-bottom: 5em;
+    @media (min-width:880px) {padding-inline: 5em}
+  }
+}
+
+#equipo {
+  gap: 3em;
+  #container-head {
+    max-width: 700px;
+    width: 100%;
+    margin-inline: auto;
+  }
+  .subtitles {
+    font-size: 3em;
+    font-weight: bold;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%,14.875em), 1fr));
+    gap: 2em;
+  }
+  .v-card {
+    display: flex !important;
+    gap: .5em;
+    .top {position: relative;display: flex}
+    @media (min-width:880px) {max-width: 14.875em}
+    .nameEquipo {
+      font-size: 1.125em;
+      transform: rotate(-90deg);
+      position: absolute;
+      bottom: 40px;
+      left: -30px;
+    }
+    &:first-of-type {
+      .nameEquipo {left: -40.25px}
+    }
+  }
+}
+
+#container-moreTeam {
+  gap: 2em;
+  flex-wrap: wrap;
+  padding: 2em;
+  .tamañoFoto2 {
+    max-width: 18em;
+    width: 100%;
+  }
+}
+
+
+#modalServices {
+  margin-top: 5em;
+  position: relative;
+  .close {
+    position: absolute;
+    right: 0;
+    top: -10px;
+    width: 3.25em;
+  }
+  #container-title{
+    width: 100%;
+    @media (min-width: 600px) {
+      max-width: clamp(35.5em, 44vw, 44.5em);
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    background-color: var(--clr) !important;
+    border-radius: 5px;
+    box-shadow: 13px 14px 55px rgba(0, 0, 0, 0.25) !important;
+    display: flex !important;
+    flex-direction: column;
+    padding: 2em 3em;
+    #decoration {
+      position: absolute;
+      top: -80px;
+      right: -100px;
+      width: 15.25em;
+      @media (max-width: 600px) {
+        top: -60px;
+        right: -80px;
+        width: 12.25em;
+      }
+    }
+    .title-1{
+      font-family: 'Fira Sans Condensed' !important;
+      font-style: normal;
+      font-weight: 500 !important;
+      font-size: 0.9375em !important;
+      line-height: 134.7% !important;
+      letter-spacing: 0.385em !important;
+      text-transform: uppercase !important;
+      color: var(--clr-inv);
+      }
+      .title-2{
+        font-family: 'Fira Sans Condensed' !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+        font-size: 2.625em !important;
+        line-height: 106.2% !important;    
+        text-transform: uppercase !important;
+        color: var(--clr-inv);
+      }
+  }
+  
+  #container-services {
+    position: static;
+    background: center no-repeat url(../../assets/images/bg-services.png), var(--bg-card4) !important;
+    background-size: cover;
+    display: flex !important;
+    flex-direction: column;
+    width: calc(100% - 5em);
+    margin-left: auto;
+    gap: 2em;
+    padding: 5em;
+    padding-top: 110px;
+    @media (max-width: 600px) {
+      padding: 2em;
+      padding-top: 80px;
+      width: 100%;
+    }
+    height: 600px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    .refimage {width: 100%;}
+  }
+}
+.dialog-services {
+  height: 670px !important;
+}
+
+.v-dialog {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}

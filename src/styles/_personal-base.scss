@@ -291,8 +291,8 @@
 // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // /
 /* // // mobile // // */ 
 // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // /
-@include media(min, 881px) {.vermobile {display: none !important}}
-@include media(max, small) {
+@media (min-width: 881px) {.vermobile {display: none !important}}
+@media (max-width: 880px) {
   .eliminarmobile {display: none !important}
   .h1mobile {font-size: var(--step-8) !important}
   .h2mobile {font-size: var(--step-7) !important}
