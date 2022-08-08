@@ -6,7 +6,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: center fixed no-repeat url("../../assets/backgroundNotFound.png");
   background-size: cover;
 }
 #containerNotFound {
@@ -22,17 +21,14 @@
   font-style: normal;
   font-weight: bold !important;
   font-size: 22rem !important;
-  background: linear-gradient(90.11deg, #D64059 -9.74%, #5E489D 111.08%);
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
+  color: #EE732A !important;
 }
 .textNotFound {
   font-family: 'Mulish', sans-serif;
   font-style: normal;
   font-weight: bold !important;
   font-size: 3.6rem !important;
-  color: #FFFFFF;
+  color: var(--clr);
 }
 #buttonNotFound {
   font-family: 'Mulish', sans-serif;
@@ -48,6 +44,6 @@
   align-items: center;
   width: 20rem;
   height: 4.75rem;
-  background: linear-gradient(90.11deg, #D64059 -9.74%, #5E489D 111.08%);
+  background: #EE732A;
   border-radius: 50.6557px;
 }

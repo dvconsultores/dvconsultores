@@ -1,7 +1,7 @@
 module.exports = {
   messages: {
     US: {  
-      idioma:'IDIOM',      
+      idioma:'LANGUAGE',      
       languaje: [
         {
           country: "https://flagcdn.com/40x30/us.png",
@@ -18,7 +18,7 @@ module.exports = {
           {
             index: 1,
             name: "HOME",
-            to: '/home',
+            to: '#/',
             add: null,
           },
           {
@@ -108,13 +108,13 @@ module.exports = {
           {
             index: 2,
             name: "SERVICIOS",
-            to: "#/",
+            to: "#servicios",
             add: null
           },
           {
             index: 3,
             name: "PROYECTOS",
-            to: "#",
+            to: "#proyectos",
             // add: {
             //   soon: "soon"
             // }
@@ -122,7 +122,7 @@ module.exports = {
           {
             index: 4,
             name: "EQUIPO",
-            to: "#/"
+            to: "#equipo"
           },                        
         ], 
 

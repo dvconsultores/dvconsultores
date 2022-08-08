@@ -1,33 +1,23 @@
 <template>
-  <v-footer id="footerColor" class="px-0 d-none d-md-flex" absolute>
-    <v-row no-gutters class="center pb-8 pt-5">
+  <v-footer id="footerColor" absolute>
+    <aside id="container-dudas" class="dudas center">
+      <span class="subtitles">{{ $t("dudas") }}</span>
+
+      <div class="center">
+        <div class="center">
+          <span class="nameEquipo pr-3">DISCORD</span>
+          <img src="../../assets/images/SM 1.png" alt="" />
+        </div>
+        <div class="center">
+          <span class="nameEquipo pl-6 pr-3">TELEGRAM</span>
+          <img src="../../assets/images/SM 2.png" alt="" />
+        </div>
+      </div>
+    </aside>
+
+    <v-row no-gutters class="center pb-8 pt-7">
       <v-col id="contenedorFooter" class="center" cols="12">
         <span>Consultores C.A. | 2022</span>
-        <!-- <v-col class="contenedorFooterLeft" cols="10" sm="4" md="4">
-          <span class="footerText">
-            {{$t('text')}}
-          </span>
-          <div class="contenedorIconosFooter">
-            <v-btn
-              v-for="icon in icons"
-              :key="icon.icon"
-              :href="icon.link"
-              target="_blank"
-              class="iconosFooter"
-              style="background: linear-gradient(90.11deg, #D64059 -9.74%, #5E489D 111.08%)"
-              icon
-            >
-              <v-icon id="colorIconosFooter" size="1.5rem">{{ icon.icon }}</v-icon>
-            </v-btn>
-          </div>
-        </v-col>
-        <v-col class="contenedorFooterRight" cols="10" sm="4" md="4">
-          <img
-            id="logoFooter"
-            :src="`${$store.state.baseURL}themes/${$store.state.theme}/logoEx.png`"
-            alt="LogoExswap"
-          >
-        </v-col> -->
       </v-col>
     </v-row>
   </v-footer>
@@ -37,7 +27,7 @@
 
 export default {
   name: 'Footer',
-  i18n: require("./i18n"),
+  i18n: require("./i18n.js"),
 
 
   data: () => ({

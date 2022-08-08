@@ -1,12 +1,10 @@
 module.exports = {
     messages: {
       US: {       
-        titleTecnologia: 'TECHNOLOGY',
-        titleOrientada: 'ORIENTED TO',
-        titleFuturo: 'FUTURE',
+        title: 'TECHNOLOGY <br> ORIENTED <br> TO <span>FUTURE</span>',
         subtitleHerramientas: 'OUR TOOLS',
         subtitleServicios: 'SERVICES',
-        subtitleservicio1: 'GRAPHIC DESIGN AND LAYOUT',        
+        subtitleservicio1: 'GRAPHIC DESIGN <br> AND LAYOUT',        
         subtitleservicio3: 'CUSTOMIZED APP',
         parrafoServicios1:'We carry out a creative design adjusted to the needs of the client and we lay out the layout following their instructions.',
         parrafoServicios2:'Development of Decentralized Applications in the Near Protocol Blockchain (Defi Marketplace NFT, DAO, Business Processes)',
@@ -105,6 +103,20 @@ module.exports = {
             cargo: "Web Builder",
             descripcion: 'Optimizes the graphic content of a website taking into account aspects such as usability, user experience and harmony of elements. It works only on the front-end of the site, translating the template proposed by the designer into markup languages ​​(XHTML, XML or HTML) and styles (CSS). Structure the elements that make up the layout in such a way that they can be interpreted by a browser.',
           },
+          {
+            name: "Maria Alejandra",
+            imgEquipo: require("@/assets/images/mariale.jpeg"),
+            linkedin: require("@/assets/images/Group 63.png"),
+            cargo: "Quality Assurance Analyst",
+            descripcion: 'Analyze end user requirements to define and document test plans, Execute test cases, debug, detect errors and / or possible improvements, document them and follow up to be resolved, Generate reports of test results and errors detected, Define priorities and plan tests of system requirements, Document the functionalities of the systems, Represent the end user to the developers to ensure that the requirements are met, Detect and propose improvements in both the quality control process and the software development cycle.',
+          },
+          {
+            name: "Jorge Cuauro",
+            imgEquipo: require("@/assets/images/jorge.jpeg"),
+            linkedin: require("@/assets/images/Group 63.png"),
+            cargo: "Frontend Developer ",
+            descripcion: 'Frontend Vue.js and Node.js, Integration of user-facing elements developed by front-end developers with server-side logic. Writing reusable, testable, and efficient code. Design and implementation of low-latency, high-availability, and performant applications. Implementation of security and data protection. Integration of data storage solution (may include database, key-value stores, blob stores, etc). Integrate with the Smart Contract, NEAR Protocol',
+          },
         ],
   
         equipoDialog: [
@@ -125,12 +137,10 @@ module.exports = {
         ],        
       },
       ES: {       
-        titleTecnologia: 'TECNOLOGíA',
-        titleOrientada: 'ORIENTADA AL',
-        titleFuturo: 'FUTURO',
+        title: 'TECNOLOGíA <br> ORIENTADA <br> AL <span>FUTURO</span>',
         subtitleHerramientas: 'NUESTRAS HERRAMIENTAS',
         subtitleServicios: 'SERVICIOS',
-        subtitleservicio1: 'DISEÑO GRAFICO Y MAQUETACION',        
+        subtitleservicio1: 'DISEÑO GRAFICO <br> Y MAQUETACION',        
         subtitleservicio3: 'APP A LA MEDIDA',
         parrafoServicios1:'Realizamos un diseño creativo ajustado a las necesidades del cliente y maquetamos siguiendo sus indicaciones.',
         parrafoServicios2:'Desarrollo de Aplicaciones descentralizadas en la Blockchain de Near Protocol (Defi Marketplace NFT, DAO, Procesos de Negocios)',
@@ -228,6 +238,20 @@ module.exports = {
             linkedin: require("@/assets/images/Group 63.png"),
             cargo: "Web Builder",
             descripcion: 'Optimiza el contenido gráfico de un sitio web teniendo en cuenta aspectos como la usabilidad, la experiencia del usuario y la armonía de elementos. Funciona solo en el front-end del sitio, traduciendo la plantilla propuesta por el diseñador a lenguajes de marcas (XHTML, XML o HTML) y estilos (CSS). Estructurar los elementos que componen el diseño de forma que puedan ser interpretados por un navegador.',
+          },
+          {
+            name: "Maria Alejandra",
+            imgEquipo: require("@/assets/images/mariale.jpeg"),
+            linkedin: require("@/assets/images/Group 63.png"),
+            cargo: "Quality Assurance Analyst",
+            descripcion: 'Analizar los requerimientos del usuario final para definir y documentar planes de prueba, Ejecutar casos de prueba, depurar, detectar errores y/o posibles mejoras, documentarlos y hacer seguimiento para ser resueltos, Generar reportes de resultados de pruebas y errores detectados, Definir prioridades y planificar pruebas de sistema requisitos, Documentar las funcionalidades de los sistemas, Representar al usuario final ante los desarrolladores para asegurar que se cumplen los requisitos, Detectar y proponer mejoras tanto en el proceso de control de calidad como en el ciclo de desarrollo de software.',
+          },
+          {
+            name: "Jorge Cuauro",
+            imgEquipo: require("@/assets/images/jorge.jpeg"),
+            linkedin: require("@/assets/images/Group 63.png"),
+            cargo: "Frontend Developer ",
+            descripcion: 'Frontend Vue.js y Node.js, integración de elementos orientados al usuario desarrollados por desarrolladores front-end con lógica del lado del servidor. Escribir código reutilizable, comprobable y eficiente. Diseño e implementación de aplicaciones de baja latencia, alta disponibilidad y alto rendimiento. Implementación de seguridad y protección de datos. Integración de la solución de almacenamiento de datos (puede incluir bases de datos, almacenes de clave-valor, almacenes de blobs, etc.). Integrar con el contrato inteligente, protocolo NEAR',
           },
         ],
   

@@ -1,11 +1,9 @@
 @import "../../styles/app";
 .v-footer {
-  .row {
-    justify-content: center;
-    @include media-breakpoint-up(sm) {
-      justify-content: space-between;
-    }
-  }
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  background: transparent !important;
 }
 
 /////////////////////////////////////////////////////////
@@ -68,4 +66,19 @@
 }
 #margenFooter {
   // padding-bottom: 130px !important;
+}
+
+.dudas{ 
+  background: var(--letraFooter);
+  box-shadow: 8px 7px 28px rgba(0, 0, 0, 0.25);    
+  border-radius: 10px;
+}
+
+#container-dudas {
+  width: min(100%,65.5625em) !important;
+  padding: 2em;
+  gap: clamp(2em, 3vw, 3em);
+  flex-wrap: wrap;
+  .subtitles {text-align: center;font-size: clamp(2.5em, 3vw, 3em) !important}
+  img {width: clamp(3em, 4vw, 4.53em)}
 }
