@@ -7,118 +7,21 @@ export default new Vuex.Store({
 
   namespace: true,
   state: {
+    drawer: false,
+    flag: require("@/assets/banderas/USA.png"),
     baseURL: process.env.BASE_URL,
     theme: "dark",
-    tokensBridge: [
-      {
-        name: "OSMO",
-        desc: "Osmosis",
-        logo: require("@/assets/logo/OSMO.png"),
-        disabled: false
-      },
-      {
-        name: "Evmos",
-        desc: "Evmos",
-        logo: require("@/assets/logo/logo.png"),
-        disabled: false,
-        filter: true
-      },
-      {
-        name: "Ethereum",
-        desc: "Ethereum",
-        logo: require("@/assets/logo/ethereum.png"),
-        disabled: false
-      },
-    ],
-    tokens: [
-      {
-        name: "OSMO",
-        desc: "Osmosis",
-        logo: require("@/assets/logo/OSMO.png"),
-        balance: 100,
-        ibcDeposit: "Deposit",
-        ibcWithdraw: "Withdraw",
-        to: "#",
-        disabled: false
-      },
-      {
-        name: 'EXS',
-        desc: 'Exswap',
-        logo: require("@/assets/logo/logo.png"),
-        balance: 50,
-        ibcDeposit: "Deposit",
-        ibcWithdraw: "Withdraw",
-        to: "#",
-        disabled: false,
-        filter: true
-      },
-      {
-        name: "Ethereum",
-        desc: "Ethereum",
-        logo: require("@/assets/logo/ethereum.png"),
-        balance: 10,
-        ibcDeposit: "Deposit",
-        ibcWithdraw: "Withdraw",
-        to: "#",
-        disabled: false
-      },
-      {
-        name: "Astronaut",
-        desc: "Astronaut",
-        logo: require("@/assets/astronauta.png"),
-        balance: 9999,
-        ibcDeposit: "Deposit",
-        ibcWithdraw: "Withdraw",
-        to: "#",
-        disabled: false
-      },
-    ],
-    tokensAssets: [
-      {
-        name: "OSMO",
-        desc: "Osmosis",
-        logo: require("@/assets/logo/farm/osmo.png"),
-        balance: 100,
-        ibcDeposit: "Deposit",
-        ibcWithdraw: "Withdraw",
-        to: "#",
-        disabled: false
-      },
-      {
-        name: 'EXS',
-        desc: 'Exswap',
-        logo: require("@/assets/logo/farm/ex.png"),
-        balance: 50,
-        ibcDeposit: "Deposit",
-        ibcWithdraw: "Withdraw",
-        to: "#",
-        disabled: false,
-      },
-      {
-        name: "Ethereum",
-        desc: "Ethereum",
-        logo: require("@/assets/logo/ethereum.png"),
-        balance: 10,
-        ibcDeposit: "Deposit",
-        ibcWithdraw: "Withdraw",
-        to: "#",
-        disabled: false
-      },
-      {
-        name: "Astronaut",
-        desc: "Astronaut",
-        logo: require("@/assets/astronauta.png"),
-        balance: 9999,
-        ibcDeposit: "Deposit",
-        ibcWithdraw: "Withdraw",
-        to: "#",
-        disabled: false
-      },
-    ],
   },
   mutations: {
     CambiarTheme(state, theme) {
       state.theme = theme
+    },
+    drawer(state) {
+      state.drawer = true
+    },
+    flagSelected(state, item) {
+      console.log(item)
+      state.flag = item.country
     }
   },
   actions: {

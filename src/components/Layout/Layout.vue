@@ -1,16 +1,20 @@
 <template>
-  <v-app class="pa-6">      
-    <v-main class="content fondo">    
+  <v-app class="pa-6 content" :style="`
+    --bg-hero: url(${$store.state.baseURL}themes/${$store.state.theme}/bg-hero.png);
+    --bg-footer: url(${$store.state.baseURL}themes/${$store.state.theme}/bg-footer.png)`">
+    <MenuHeader></MenuHeader>
+    <v-main id="margin" class="fondo">
       <Header />  
-      <router-view ref="data" class="marginWithFooter principal" />
-      <Footer />
+      <router-view ref="data" />
     </v-main>
+    <Footer />
   </v-app>
 </template>
 
 <script>
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
+import MenuHeader from "@/components/Header/MenuHeader";
 import "./Layout.scss";
 
   // async function borrarReciente() {
@@ -18,7 +22,7 @@ import "./Layout.scss";
   // }
 export default {
   name: "Layout",
-  components: { Footer, Header },
+  components: { Footer, Header, MenuHeader },
   // mounted() {
   //   borrarReciente();
   // }

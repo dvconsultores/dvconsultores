@@ -1,6 +1,6 @@
 <template>
   <v-app style="background-color: #20232C">
-    <v-container fluid class="error-page">/exswap/
+    <v-container fluid class="error-page">
       <v-row justify="center" align="center">
         <v-col cols="12" sm="12" md="12" id="containerNotFound">
           <span id="text404" class="text404">404</span>
@@ -50,12 +50,6 @@ export default {
       font-size: 1.8rem !important;
       width: 20rem;
       height: 4.75rem;
-    }
-  }
-  @media (max-width: 880px) {
-    .error-page {
-      background-image: url("../../assets/backgroundNotFoundMobile.png") !important;
-      background-size: cover !important;
     }
   }
   @media (max-width: 780px) and (min-width: 740px) {

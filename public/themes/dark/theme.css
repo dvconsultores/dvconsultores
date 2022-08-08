@@ -1,4 +1,8 @@
 :root {
+  --bg-card: #023F57;
+  --bg-card2: #023F57;
+  --bg-card3: hsl(197, 96%, 17%, .5);
+  --bg-card4: #022D3E;
   --color:  #C7C7C7;
   --color2: #FFFFFF;
   --color3: #C4C4C4;
@@ -52,13 +56,11 @@ html, body {
     border-bottom-left-radius: 10px;
   }
   .div2{
-    background-color: #022D3E;     
-    height: 120px; 
+    background-color: #022D3E;
   }
   .div3{
     cursor: pointer;
     background: linear-gradient(180deg, #023F57 0%,#DCDCDC 100%);     
-    height: 120px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;      
   }

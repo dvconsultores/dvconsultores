@@ -4,7 +4,7 @@ import "vue-toastification/dist/index.css"
 
 import App from './App.vue'
 import axios from "axios";
-import Moralis from './plugins/moralis'
+// import Moralis from './plugins/moralis'
 //import initI18n from '@/plugins/i18n'
 import { i18n } from '@/plugins/i18n'
 import router from './Routes'
@@ -41,7 +41,7 @@ Vue.config.productionTip = false
 
 new Vue({
   vuetify,
-  Moralis,
+  // Moralis,
   router,
   i18n,
   render: h => h(App), store
