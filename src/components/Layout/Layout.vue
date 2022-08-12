@@ -3,7 +3,7 @@
     --bg-hero: url(${$store.state.baseURL}themes/${$store.state.theme}/bg-hero.png);
     --bg-footer: url(${$store.state.baseURL}themes/${$store.state.theme}/bg-footer.png)`">
     <MenuHeader></MenuHeader>
-    <v-main id="margin" class="fondo">
+    <v-main id="margin">
       <Header />  
       <router-view ref="data" />
     </v-main>

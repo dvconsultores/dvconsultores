@@ -18,7 +18,7 @@
         <img class="logo" :src="item.logo" alt="Logo Generico">
         
         <v-card>
-          <aside id="content" class="divcol">
+          <aside id="content" class="divcol col-lg-8">
             <div id="social" class="center" style="gap:1em">
               <v-btn>
                 <img src="../../assets/images/twitter.png" alt="logo twitter">
@@ -28,7 +28,7 @@
               </v-btn>
             </div>
 
-            <div class="divcol" style="gap:.2em">
+            <div class="divcol mt-6" style="gap:.2em">
               <h3>{{item.title}}</h3>
               <p class="parrafoProyectos pt-2 pb-4">{{item.parrafo}}</p>
             </div>
@@ -43,7 +43,7 @@
             </div>
 
             <div class="linkDeAcceso end">
-              <a href=""><span>{{ $t("linkAcceso") }} <v-icon>mdi-arrow-right</v-icon></span></a>
+              <a :href="item.to"><span>{{ $t("linkAcceso") }} <v-icon>mdi-arrow-right</v-icon></span></a>
             </div>
           </aside>
           

@@ -2,7 +2,7 @@
   <section id="home">
     <Modales ref="modales"></Modales>
     <!-- seccion 1 -->
-    <aside id="hero">
+    <aside id="hero" class="mt-sm-10 mt-md-10 mt-lg-0">
       <section class="center">
         <img id="hero-img" src="../../assets/images/Group 38.png" alt="cubo principal" />
         
@@ -22,7 +22,7 @@
         <v-slide-group multiple show-arrows>
           <v-slide-item>
             <div class="herramientas center">
-              <a href="">
+              <a href="https://near.org/">
                 <img :src="`${$store.state.baseURL}themes/${$store.state.theme}/near.png`" alt="Logo de Near" />
               </a>
             </div>
@@ -30,7 +30,7 @@
           
           <v-slide-item v-for="(item, index) in herramientas" :key="index">
             <div v-bind:key="index" class="herramientas center">
-              <a href="#">
+              <a :href= "item.to">
                 <v-img :src="item.img" />
               </a>
             </div>
@@ -61,11 +61,11 @@
         <span class="parrafoServices">{{$t("parrafoServicios3")}}</span>
       </aside>
       
-      <div class="verMas">
+      <!-- <div class="verMas">
         <a @click="$refs.modales.dialog = true">
           <span>{{ $t("verMas") }} <v-icon>mdi-arrow-right</v-icon></span>
         </a>
-      </div>
+      </div> -->
     </section>
 
     <!-- seccion 3 -->
@@ -85,7 +85,7 @@
             <span class="titleProyectos">NEAR P2P DEX</span>
             <p class="parrafoProyectos">{{ $t("parrafoProyecto1") }}</p>
             <div class="div3 center">
-              <v-icon>mdi-arrow-right</v-icon>
+              <a href="https://nearp2p.com/"><v-icon>mdi-arrow-right</v-icon></a>              
             </div>
           </div>
         </v-card>
@@ -98,20 +98,20 @@
             <span class="titleProyectos">DEFIX3</span>
             <p class="parrafoProyectos">{{ $t("parrafoProyecto2") }}</p>
             <div class="div3 center">
-              <v-icon>mdi-arrow-right</v-icon>
+              <a href="https://defix3.com/#/"><v-icon>mdi-arrow-right</v-icon></a>
             </div>
           </div>
         </v-card>
 
-        <!-- Proyecto BOOKSHOP -->
+        <!-- Proyecto FREE HORSES -->
         <v-card color="var(--bg-card)">
           <img :src="`${$store.state.baseURL}themes/${$store.state.theme}/generic-logo.png`" alt="Logo Generico" />
 
           <div class="div2">
-            <span class="titleProyectos">BOOKSHOP</span>
+            <span class="titleProyectos">FREE HORSES</span>
             <p class="parrafoProyectos">{{ $t("parrafoProyecto3") }}</p>
             <div class="div3 center">
-              <v-icon>mdi-arrow-right</v-icon>
+              <a href="https://freehorses.io/#/"><v-icon>mdi-arrow-right</v-icon></a>
             </div>
           </div>
         </v-card>
@@ -146,7 +146,7 @@
               <div class="card1">
                 <v-card-title class="space pl-0 pb-0">
                   <div class="col-lg-5">
-                    <img class="tamañoFotoPopup" :src="equipoTool.img" alt="" />
+                    <img class="tamañoFotoPopup" :src="equipoTool.img" alt="foto de equipo"/>
                   </div>
                   <div class="col-lg-6 pl-0">
                     <span class="namePopup">
@@ -162,11 +162,21 @@
                 </v-card-title>
 
                 <p class="textoDialog1">{{ item.descripcion }}</p>
+                <v-row>
+                  <v-col class="center">
+                    <img :src="item.twitter" alt="twitter">
+                    <img class="tamLinkedin" :src="item.linkedin" alt="linkedin">
+                  </v-col>
+                </v-row>
               </div>
             </v-tooltip>
           </aside>
-
-          <img class="tamLinkedin" :src="item.linkedin" alt="Logo linkedin" />
+          <v-row>
+            <v-col>
+              <a href=""><img class="tamTwitter" :src="item.twitter" alt="Logo twitter" /></a>
+              <a href=""><img class="tamLinkedin" :src="item.linkedin" alt="Logo linkedin" /></a>                  
+            </v-col>
+          </v-row>
         </v-card>
       </section>
 
@@ -263,18 +273,22 @@ export default {
         {
           value: 1,
           img: require("@/assets/images/LOGOS HERRAMIENTAS 2.png"),
+          to: 'https://www.rust-lang.org/',
         },
         {
           value: 2,
           img: require("@/assets/images/LOGOS HERRAMIENTAS 3.png"),
+          to: 'https://vuejs.org/',
         },
         {
           value: 3,
           img: require("@/assets/images/2048px-Python-logo-notext 1.png"),
+          to: 'https://www.python.org/',
         },
         {
           value: 4,
           img: require("@/assets/images/nodejs-logo 1.png"),
+          to: 'https://nodejs.org/',
         },
       ],
     };
@@ -291,6 +305,8 @@ export default {
         (this.equipoTool.img = item.imgEquipo);
       this.equipoTool.cargo = item.cargo;
       this.equipoTool.descripcion = item.descripcion;
+      this.equipoTool.twitter = item.twitter;
+      this.equipoTool.linkedin = item.linkedin;
     },
     funProyectos() {
       this.$router.push("/proyectos");

@@ -147,7 +147,7 @@
         background-color: var(--bg-card2);
         z-index: 1;
         padding: 1em;
-        border-radius: 20px;
+        border-radius: 10px;
         width: min(100%, 15.625em);
       }
       .v-card {
@@ -165,8 +165,8 @@
         @media (max-width: 880px) {flex-wrap: wrap-reverse}
         gap: 2em;
         .refimage {
-          width: 22.375em;
-          height: 300px;
+          width: 19.375em;
+          height: 330px;
           @media (max-width: 880px) {width: 100%;height: 400px}
           @media (max-width: 600px) {height: 200px}
         }

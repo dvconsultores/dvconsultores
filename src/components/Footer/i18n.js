@@ -1,7 +1,7 @@
 module.exports = {
     messages: {
       US: {
-        dudas: 'ANY QUESTIONS??',
+        dudas: 'ANY QUESTION??',
       },
       ES: {
         dudas: '¿TIENES ALGUNA DUDA?',

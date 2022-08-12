@@ -8,11 +8,11 @@
     </v-btn>
         
   <!-- desktop -->
-    <img class="deletemobile" id="logoPrincipal" :src="`${$store.state.baseURL}themes/${$store.state.theme}/logo.png`" alt="logo" />
+    <img class="deletemobile logo" id="logoPrincipal" :src="`${$store.state.baseURL}themes/${$store.state.theme}/logo.png`" alt="logo" />
 
-    <aside class="end deletemobile" style="gap:1em">
+    <aside class="end deletemobile" style="gap:2em">
       <div v-for="(item, index) in $t('items')" v-bind:key="index" id="ajustarHeader">
-        <a :href="item.to" id="texts" class="h7-em" :class="{ openMenuBridge: item.open }" >
+        <a :href="item.to" id="texts" class="h8-em" :class="{ openMenuBridge: item.open }" >
           {{ item.name }}
         </a>
       </div>

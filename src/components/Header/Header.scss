@@ -24,6 +24,9 @@ a {
     border-bottom: 2px solid var(--clr);
   }
 }
+.logo{
+  width: 250px;
+}
 
 .bandera {
   width: 38px;
@@ -34,6 +37,11 @@ a {
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+.v-btn:not(.v-btn--round).v-size--default {
+  padding: 0px;
+  height: 0px;
+  min-width: 0px;
 }
 .v-list-item-b {
   min-height: auto !important;

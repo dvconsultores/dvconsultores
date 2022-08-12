@@ -1341,7 +1341,11 @@ img{
   font-family: 'Fira Sans Condensed';
 }
 .tamLinkedin{
-  width: 3.1875em;
+  width: 1.5em;
+  margin-left: 10.25px;
+}
+.tamTwitter{
+  width: 1.5em;
   margin-left: 20.25px;
 }
 .servicesTitle{
@@ -1512,7 +1516,7 @@ font-style: normal;
 }
 @layer layout {
   h1 {
-    font-size: clamp(5em, 6vw, 6em) !important;
+    font-size: clamp(5em, 5vw, 6em) !important;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     span {
       border-radius: 10px;
@@ -1523,7 +1527,7 @@ font-style: normal;
   }
 }
 #hero {
-  @media (min-width: 880px) {padding-top: calc(71px + 64px)}
+  // @media (min-width: 880px) {padding-top: calc(71px + 64px)}
   & > section {
     overflow: hidden;
     @media (max-width: 880px) {flex-direction: column}
@@ -1531,11 +1535,13 @@ font-style: normal;
   &-img {
     width: min(100%,40em);
     @media (min-width:880px) {
-      width: clamp(40em, 55vw, 55.48125em);
-      transform: translateY(-80px);
+      width: clamp(40em, 42vw, 55.48125em);      
+      transform: translateX(-90px);  
+      margin-top: 10px;  
+
     }
   }
-  #right {gap: 1em;}
+  #right {gap: 1em; margin-top: 60px;}
   #container-cubitos {
     position: relative;
     height: calc(9.5625em * 2);
@@ -1574,6 +1580,9 @@ font-style: normal;
       }
     }
   }
+  .v-card > *:last-child:not(.v-btn):not(.v-chip):not(.v-avatar) {
+    border-bottom-left-radius:0px;
+  }
 }
 
 #container-tools {
@@ -1591,7 +1600,7 @@ font-style: normal;
   }
 }
 
-#equipo {
+#equipo {  
   gap: 3em;
   #container-head {
     max-width: 700px;
@@ -1604,7 +1613,7 @@ font-style: normal;
   }
   .wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%,14.875em), 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 14.875em), 1fr));
     gap: 2em;
   }
   .v-card {
