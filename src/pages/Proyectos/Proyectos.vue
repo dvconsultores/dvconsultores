@@ -20,12 +20,12 @@
         <v-card>
           <aside id="content" class="divcol col-lg-8">
             <div id="social" class="center" style="gap:1em">
-              <v-btn>
-                <img src="../../assets/images/twitter.png" alt="logo twitter">
-              </v-btn>
-              <v-btn>
-                <img src="../../assets/images/discord.png" alt="logo discord">
-              </v-btn>
+              <a class="center" :href="item.urlRedSocial1">
+                <img class="center" :src="item.redSocial1" alt="logo twitter">
+              </a>               
+              <a class="center" :href="item.urlRedSocial2">
+                <img :src="item.redSocial2" alt="logo discord">
+              </a>              
             </div>
 
             <div class="divcol mt-6" style="gap:.2em">

@@ -1,7 +1,8 @@
 :root {
   --bg-card: #023F57;
-  --bg-card2: #023F57;
-  --bg-card3: hsl(197, 96%, 17%, .5);
+  --bg-card2: #F6F6F6;
+  /* --bg-card2: #023F57; */
+  --bg-card3: #022D3E;
   --bg-card4: #022D3E;
   --color:  #C7C7C7;
   --color2: #FFFFFF;
@@ -24,8 +25,7 @@
   color: var(--clr-inv) !important;
 }
 html, body {
-  background: #021B23;
-  background-image: url("../../assets/images/fondodark.png") !important; 
+  background: #021B23;  
 }
   h1{
     font-family: 'Fira Sans Condensed';

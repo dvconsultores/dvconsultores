@@ -1,6 +1,6 @@
 <template>
   <v-app class="pa-6 content" :style="`
-    --bg-hero: url(${$store.state.baseURL}themes/${$store.state.theme}/bg-hero.png);
+    --bg-hero: url(${$store.state.baseURL}themes/${$store.state.theme}/bg-hero.png);      
     --bg-footer: url(${$store.state.baseURL}themes/${$store.state.theme}/bg-footer.png)`">
     <MenuHeader></MenuHeader>
     <v-main id="margin">

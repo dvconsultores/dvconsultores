@@ -14,16 +14,10 @@
 
           <img class="refimage" src="../../assets/images/Mask group (4).png" alt="imagen" />
           <p class="textoDialog" style="margin: 0">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy
-            text ever since the 1500s, when an unknown printer took a galley
-            of type and scrambled it to make a type specimen book. It has
-            survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged. It was
-            popularised in the 1960s with the release of Letraset sheets
-            containing Lorem Ipsum passages, and more recently with desktop
-            publishing software like Aldus PageMaker including versions of
-            Lorem Ipsum.
+            Con más de 10 años en el mercado, 
+            hemos tenido la oportunidad de llevar
+            de manera satisfactoria proyectos de iot,
+             documentación y procesos de auditoria.
           </p>
         </v-card>
       </v-sheet>

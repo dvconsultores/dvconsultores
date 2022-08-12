@@ -61,11 +61,11 @@
         <span class="parrafoServices">{{$t("parrafoServicios3")}}</span>
       </aside>
       
-      <!-- <div class="verMas">
+      <div class="verMas">
         <a @click="$refs.modales.dialog = true">
           <span>{{ $t("verMas") }} <v-icon>mdi-arrow-right</v-icon></span>
         </a>
-      </div> -->
+      </div>
     </section>
 
     <!-- seccion 3 -->
@@ -92,7 +92,7 @@
 
         <!-- Proyecto DEFIX3 -->
         <v-card color="var(--bg-card)">
-          <img :src="`${$store.state.baseURL}themes/${$store.state.theme}/generic-logo.png`" alt="Logo Generico" />
+          <img :src="`${$store.state.baseURL}themes/${$store.state.theme}/logoDefix.png`" alt="Logo Defix3" />
 
           <div class="div2">
             <span class="titleProyectos">DEFIX3</span>
