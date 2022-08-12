@@ -31,6 +31,7 @@
           <v-slide-item v-for="(item, index) in herramientas" :key="index">
             <div v-bind:key="index" class="herramientas center">
               <a :href= "item.to">
+                <v-icon color="grey" style="font-size: 90px">{{item.icon}}</v-icon>                                
                 <v-img :src="item.img" />
               </a>
             </div>
@@ -272,7 +273,7 @@ export default {
       herramientas: [
         {
           value: 1,
-          img: require("@/assets/images/LOGOS HERRAMIENTAS 2.png"),
+          icon: 'mdi-language-rust',
           to: 'https://www.rust-lang.org/',
         },
         {
