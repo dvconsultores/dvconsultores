@@ -175,7 +175,7 @@ module.exports = {
             linkedin: require("@/assets/images/linkedin.png"),
             twitter: require("@/assets/images/TWITTER.png"),
             cargo: "Fullstack",
-            descripcion: 'Impulse la innovación en la plataforma a través de la creación rápida de prototipos y el desarrollo iterativo. Solucionar problemas, depurar y actualizar los sistemas de software existentes. Cree código que cumpla con los estándares de la industria y las mejores prácticas de ingeniería. Participe activamente en la planificación de sprints, la estimación de puntos de historia, las reuniones diarias y las retrospectivas de sprints.',
+            descripcion: 'Líder Técnico del equipo de desarrollo responsable de la innovación y definición de la arquitectura de las aplicaciones, prototipos, plantea soluciones a problemas de funcionalidad, escalabilidad y seguridad.  Válida que el equipo de desarrollo  cumpla con los estándares de la industria y las mejores prácticas de ingeniería. Como líder técnico participa activamente en la planificación de sprints, la estimación de puntos de historia, las reuniones diarias y las retrospectivas de sprints.',
           },
           {
             name: "Maria Arevalo",
@@ -183,7 +183,7 @@ module.exports = {
             linkedin: require("@/assets/images/linkedin.png"),
             twitter: require("@/assets/images/TWITTER.png"),
             cargo: "Project Manager",
-            descripcion: 'Definir la razón por la cual un proyecto es necesario. Especificar la calidad de cada parte entregable. Estimar los recursos y los plazos necesarios. Desarrollar e implementar un plan y procesos para el proyecto. Liderar y motivar al equipo. Gestión de riesgos, problemas y cambios que puedan ocurrir en el proyecto. Monitorear el progreso. Mantener una comunicación continua con los stakeholders. Administración de suministros.',
+            descripcion: 'Definir visión y alcance de proyecto, especificar la calidad de cada parte entregable, estimar los recursos y los plazos necesarios, desarrollar e implementar un plan y procesos para el proyecto, liderar y motivar al equipo, gestión de riesgos, problemas y cambios que puedan ocurrir en el proyecto, monitorear el progreso, mantener una comunicación continua con los stakeholders, administración de suministros.',
           },
           {
             name: "Leyner Aponte",
@@ -199,7 +199,7 @@ module.exports = {
             linkedin: require("@/assets/images/linkedin.png"),
             twitter: require("@/assets/images/TWITTER.png"),
             cargo: "Back End Developer",
-            descripcion: 'Programación en RUST, Programación en NODE, Javascript. Desarrollar el protocolo NEAR de contrato inteligente. Programación en lenguaje Python. Bases de Datos Relacionales (MySQL, PostgreSQL, SQL Server...) y lenguaje SQL. Comprender las estructuras y arquitecturas de desarrollo de back-end. Integración de servidor y nube. Integración con sistemas de terceros. Configuración de seguridad y prevención de ataques.',
+            descripcion: 'Programación en RUST, Programación en NODE, Javascript. Desarrolla el protocolo NEAR de contrato inteligente. Programación en lenguaje Python. Bases de Datos Relacionales (MySQL, PostgreSQL, SQL Server...) y lenguaje SQL. Comprende las estructuras y arquitecturas de desarrollo de back-end. Integración de servidor y nube. Integración con sistemas de terceros. Configuración de seguridad y prevención de ataques.',
           },
           {
             name: "krisnella Parra",
@@ -207,7 +207,7 @@ module.exports = {
             linkedin: require("@/assets/images/linkedin.png"),
             twitter: require("@/assets/images/TWITTER.png"),
             cargo: "Project analyst",
-            descripcion: 'Analiza qué actividades pueden ser perjudiciales para la empresa (ya sea porque suponen un coste innecesario o porque son poco sostenibles), y transfórmarlas en soluciones más sostenibles. Su trabajo se desarrolla a lo largo de las diferentes fases del proyecto.',
+            descripcion: 'Analiza que actividades pueden ser perjudiciales para la empresa (ya sea porque suponen un coste innecesario o porque son poco sostenibles), y transfórmarlas en soluciones más sostenibles. Su trabajo se desarrolla a lo largo de las diferentes fases del proyecto.',
           },
           {
             name: "Angel Arevalo",
@@ -215,7 +215,7 @@ module.exports = {
             linkedin: require("@/assets/images/linkedin.png"),
             twitter: require("@/assets/images/TWITTER.png"),
             cargo: "Back End Developer",
-            descripcion: 'Programación en RUST, Programación en NODE, Javascript. Desarrollar el protocolo NEAR de contrato inteligente. Programación en lenguaje Python. Bases de Datos Relacionales (MySQL, PostgreSQL, SQL Server...) y lenguaje SQL. Comprender las estructuras y arquitecturas de desarrollo de back-end. Integración de servidor y nube. Integración con sistemas de terceros. Configuración de seguridad y prevención de ataques.',
+            descripcion: 'Programación en RUST, Programación en NODE, Javascript. Desarrolla el protocolo NEAR de contrato inteligente. Programación en lenguaje Python. Bases de Datos Relacionales (MySQL, PostgreSQL, SQL Server...) y lenguaje SQL. Comprende las estructuras y arquitecturas de desarrollo de back-end. Integración de servidor y nube. Integración con sistemas de terceros. Configuración de seguridad y prevención de ataques.',
           },
           {
             name: "Gabriel Perez ",
@@ -223,7 +223,7 @@ module.exports = {
             linkedin: require("@/assets/images/linkedin.png"),
             twitter: require("@/assets/images/TWITTER.png"),
             cargo: "Back End Developer",
-            descripcion: 'Programación en RUST, Programación en NODE, Javascript. Desarrollar el protocolo NEAR de contrato inteligente. Programación en lenguaje Python. Bases de Datos Relacionales (MySQL, PostgreSQL, SQL Server...) y lenguaje SQL. Comprender las estructuras y arquitecturas de desarrollo de back-end. Integración de servidor y nube. Integración con sistemas de terceros. Configuración de seguridad y prevención de ataques.',
+            descripcion: 'Programación en RUST, Programación en NODE, Javascript. Desarrolla el protocolo NEAR de contrato inteligente. Programación en lenguaje Python. Bases de Datos Relacionales (MySQL, PostgreSQL, SQL Server...) y lenguaje SQL. Comprende las estructuras y arquitecturas de desarrollo de back-end. Integración de servidor y nube. Integración con sistemas de terceros. Configuración de seguridad y prevención de ataques.',
           },
           {
             name: "Joalis Rosario",
@@ -231,7 +231,7 @@ module.exports = {
             linkedin: require("@/assets/images/linkedin.png"),
             twitter: require("@/assets/images/TWITTER.png"),
             cargo: "Web Builder",
-            descripcion: 'Optimiza el contenido gráfico de un sitio web, teniendo en cuenta aspectos como la usabilidad, la experiencia del usuario y la armonía de elementos. Funciona solo en el front-end del sitio, traduciendo la plantilla propuesta por el diseñador a lenguajes de marcas (XHTML, XML o HTML) y estilos (CSS). Estructurar los elementos que componen el diseño de forma que puedan ser interpretados por un navegador.',
+            descripcion: 'Optimiza el contenido gráfico de un sitio web, teniendo en cuenta aspectos como la usabilidad, la experiencia del usuario y la armonía de elementos. Funciona solo en el front-end del sitio, traduciendo la plantilla propuesta por el diseñador a lenguajes de marcas (XHTML, XML o HTML) y estilos (CSS). Estructura los elementos que componen el diseño de forma que puedan ser interpretados por un navegador.',
           },
           {
             name: "Cesar Coronel",
@@ -239,7 +239,7 @@ module.exports = {
             linkedin: require("@/assets/images/linkedin.png"),
             twitter: require("@/assets/images/TWITTER.png"),
             cargo: "Frontend Developer ",
-            descripcion: 'Frontend Vue.js y Node.js, Integración de elementos orientados al usuario, desarrollado por desarrolladores front-end con lógica del lado del servidor. Escribir código reutilizable, comprobable y eficiente. Diseño e implementación de aplicaciones de baja latencia, alta disponibilidad y alto rendimiento. Implementación de seguridad y protección de datos. Integración de la solución de almacenamiento de datos (puede incluir bases de datos, almacenes de clave-valor, almacenes de blobs, etc.). Integre con el contrato inteligente, protocolo NEAR.',
+            descripcion: 'Frontend Vue.js y Node.js, Integración de elementos orientados al usuario, desarrollado por desarrolladores front-end con lógica del lado del servidor. Escribir código reutilizable, comprobable y eficiente. Diseño e implementación de aplicaciones de baja latencia, alta disponibilidad y alto rendimiento. Implementación de seguridad y protección de datos. Integración de la solución de almacenamiento de datos (puede incluir bases de datos, almacenes de clave-valor, almacenes de blobs, etc.). Integracion con el contrato inteligente, protocolo NEAR.',
           },
           {
             name: "Juan Ochando",
@@ -247,7 +247,7 @@ module.exports = {
             linkedin: require("@/assets/images/linkedin.png"),
             twitter: require("@/assets/images/TWITTER.png"),
             cargo: "Back End Developer",
-            descripcion: 'Programación en RUST, Programación en NODE, Javascript. Desarrollar el protocolo NEAR de contrato inteligente. Programación en lenguaje Python. Bases de Datos Relacionales (MySQL, PostgreSQL, SQL Server...) y lenguaje SQL. Comprender las estructuras y arquitecturas de desarrollo de back-end. Integración de servidor y nube. Integración con sistemas de terceros. Configuración de seguridad y prevención de ataques.',
+            descripcion: 'Programación en RUST, Programación en NODE, Javascript. Desarrolla el protocolo NEAR de contrato inteligente. Programación en lenguaje Python. Bases de Datos Relacionales (MySQL, PostgreSQL, SQL Server...) y lenguaje SQL. Comprende las estructuras y arquitecturas de desarrollo de back-end. Integración de servidor y nube. Integración con sistemas de terceros. Configuración de seguridad y prevención de ataques.',
           },
           {
             name: "Linda Rosario",
@@ -255,7 +255,7 @@ module.exports = {
             linkedin: require("@/assets/images/linkedin.png"),
             twitter: require("@/assets/images/TWITTER.png"),
             cargo: "Frontend Developer ",
-            descripcion: 'Frontend Vue.js y Node.js, Integración de elementos orientados al usuario, desarrollado por desarrolladores front-end con lógica del lado del servidor. Escribir código reutilizable, comprobable y eficiente. Diseño e implementación de aplicaciones de baja latencia, alta disponibilidad y alto rendimiento. Implementación de seguridad y protección de datos. Integración de la solución de almacenamiento de datos (puede incluir bases de datos, almacenes de clave-valor, almacenes de blobs, etc.). Integre con el contrato inteligente, protocolo NEAR.',
+            descripcion: 'Frontend Vue.js y Node.js, Integración de elementos orientados al usuario, desarrollado por desarrolladores front-end con lógica del lado del servidor. Escribir código reutilizable, comprobable y eficiente. Diseño e implementación de aplicaciones de baja latencia, alta disponibilidad y alto rendimiento. Implementación de seguridad y protección de datos. Integración de la solución de almacenamiento de datos (puede incluir bases de datos, almacenes de clave-valor, almacenes de blobs, etc.). Integracion con el contrato inteligente, protocolo NEAR.',
           },
           {
             name: "Herian Palencia",
@@ -263,7 +263,7 @@ module.exports = {
             linkedin: require("@/assets/images/linkedin.png"),
             twitter: require("@/assets/images/TWITTER.png"),
             cargo: "Web Builder",
-            descripcion: 'Optimiza el contenido gráfico de un sitio web, teniendo en cuenta aspectos como la usabilidad, la experiencia del usuario y la armonía de elementos. Funciona solo en el front-end del sitio, traduciendo la plantilla propuesta por el diseñador a lenguajes de marcas (XHTML, XML o HTML) y estilos (CSS). Estructurar los elementos que componen el diseño de forma que puedan ser interpretados por un navegador.',
+            descripcion: 'Optimiza el contenido gráfico de un sitio web, teniendo en cuenta aspectos como la usabilidad, la experiencia del usuario y la armonía de elementos. Funciona solo en el front-end del sitio, traduciendo la plantilla propuesta por el diseñador a lenguajes de marcas (XHTML, XML o HTML) y estilos (CSS). Estructura los elementos que componen el diseño de forma que puedan ser interpretados por un navegador.',
           },
           {
             name: "Maria Alejandra",
@@ -271,7 +271,7 @@ module.exports = {
             linkedin: require("@/assets/images/linkedin.png"),
             twitter: require("@/assets/images/TWITTER.png"),
             cargo: "Quality Assurance Analyst",
-            descripcion: 'Analice los requisitos del usuario final para definir y documentar los planes de prueba. Ejecutar casos de prueba, depurar, detectar errores y/o posibles mejoras, documentarlos y hacer seguimiento para su resolución. Genere informes de resultados de pruebas y errores detectados. Definir prioridades y planificar pruebas de requisitos del sistema. Documentar las funcionalidades de los sistemas. Representar al usuario final ante los desarrolladores para garantizar que se cumplan los requisitos. Detectar y proponer mejoras tanto en el proceso de control de calidad como en el ciclo de desarrollo de software.',
+            descripcion: 'Analiza los requisitos del usuario final para definir y documentar los planes de prueba. Ejecutar casos de prueba, depurar, detectar errores y/o posibles mejoras, documentarlos y hacer seguimiento para su resolución. Genera informes de resultados de pruebas y errores detectados. Define prioridades y planifica pruebas de requisitos del sistema. Documenta las funcionalidades de los sistemas. Representa al usuario final ante los desarrolladores para garantizar que se cumplan los requisitos. Detecta y propone mejoras tanto en el proceso de control de calidad como en el ciclo de desarrollo de software.',
           },
           {
             name: "Jorge Cuauro",
@@ -279,7 +279,7 @@ module.exports = {
             linkedin: require("@/assets/images/linkedin.png"),
             twitter: require("@/assets/images/TWITTER.png"),
             cargo: "Frontend Developer ",
-            descripcion: 'Frontend Vue.js y Node.js, Integración de elementos orientados al usuario, desarrollado por desarrolladores front-end con lógica del lado del servidor. Escribir código reutilizable, comprobable y eficiente. Diseño e implementación de aplicaciones de baja latencia, alta disponibilidad y alto rendimiento. Implementación de seguridad y protección de datos. Integración de la solución de almacenamiento de datos (puede incluir bases de datos, almacenes de clave-valor, almacenes de blobs, etc.). Integre con el contrato inteligente, protocolo NEAR.',
+            descripcion: 'Frontend Vue.js y Node.js, Integración de elementos orientados al usuario, desarrollado por desarrolladores front-end con lógica del lado del servidor. Escribir código reutilizable, comprobable y eficiente. Diseño e implementación de aplicaciones de baja latencia, alta disponibilidad y alto rendimiento. Implementación de seguridad y protección de datos. Integración de la solución de almacenamiento de datos (puede incluir bases de datos, almacenes de clave-valor, almacenes de blobs, etc.). Integracion con el contrato inteligente, protocolo NEAR.',
           },
         ],
   

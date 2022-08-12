@@ -2,7 +2,7 @@
   <section id="home">
     <Modales ref="modales"></Modales>
     <!-- seccion 1 -->
-    <aside id="hero" class="mt-sm-10 mt-md-10 mt-lg-0">
+    <aside id="hero" class="mt-16 mt-sm-16 mt-md-14 mt-lg-0 mt-xl-0">
       <section class="center">
         <img id="hero-img" src="../../assets/images/Group 38.png" alt="cubo principal" />
         

@@ -92,7 +92,7 @@
         <v-list-item v-for="i in $t('languaje')" :key="i" link
                 >   
                 <v-list-item-title
-                  @click="flagSelected(i.value)" class="center" 
+                  @click="flagSelectedMobile(i.value)" class="center" 
                   v-text="i.name"
                 >
                 </v-list-item-title>                     
@@ -130,8 +130,8 @@
 <script>
 import { i18n } from "@/plugins/i18n";
 export default {
-  name: "Header",
-  i18n: require("./i18n"),
+  name: "MenuHeader",
+  i18n: require("./i18n"),  
   data() {
     return {
       IconoTheme: true,
@@ -148,7 +148,7 @@ export default {
     }
   },
   methods: {
-     flagSelected(item) {
+     flagSelected(item) {    
          if (item.value === "US") {
          localStorage.language = item.value;
          i18n.locale = item.value;
@@ -158,6 +158,17 @@ export default {
         i18n.locale = item.value;
       }
       this.$store.commit('flagSelected', item);
+    },
+
+     flagSelectedMobile(item) {
+      if (item === "ES") {
+        localStorage.language = item;
+        i18n.locale = item;        
+      }
+      if  (item === "US") {
+        localStorage.language = item;
+        i18n.locale = item;        
+      }
      },
     CambiarTheme(theme) {
       this.$store.dispatch("CambiarTheme", { theme, element: this.element });

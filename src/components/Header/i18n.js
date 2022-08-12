@@ -5,12 +5,12 @@ module.exports = {
       languaje: [
         {
           country: "https://flagcdn.com/40x30/us.png",
-          name: "English",
+          name: "ENGLISH",
           value: "US"
         },
         {
           country: "https://flagcdn.com/40x30/es.png",
-          name: "Spanish",
+          name: "SPANISH",
           value: "ES"
         },
       ],        
@@ -89,12 +89,12 @@ module.exports = {
       languaje: [
         {
           country: "https://flagcdn.com/40x30/us.png",
-          name: "English",
+          name: "INGLES",
           value: "US"
         },
         {
           country: "https://flagcdn.com/40x30/es.png",
-          name: "Spanish",
+          name: "ESPAÑOL",
           value: "ES"
         },
       ],        

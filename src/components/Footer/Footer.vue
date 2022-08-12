@@ -17,7 +17,7 @@
 
     <v-row no-gutters class="center pb-8 pt-7">
       <v-col id="contenedorFooter" class="center" cols="12">
-        <span>Consultores C.A. | 2022</span>
+        <span>GLOBALDV C.A | 2022</span>
       </v-col>
     </v-row>
   </v-footer>
