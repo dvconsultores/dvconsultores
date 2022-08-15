@@ -1717,10 +1717,10 @@ font-style: normal;
       padding-top: 80px;
       width: 100%;
     }
-    height: 600px;
+    height: 640px;
     // overflow-x: hidden;
     // overflow-y: auto;
-    .refimage {width: 100%;}
+    .refimage {width: 100%; padding-top: 20px;}
   }
 }
 .dialog-services {
