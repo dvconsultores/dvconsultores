@@ -1583,6 +1583,9 @@ font-style: normal;
   .v-card > *:last-child:not(.v-btn):not(.v-chip):not(.v-avatar) {
     border-bottom-left-radius:0px;
   }
+  .logoFree{
+    max-height: 100px !important;
+  }
 }
 
 #container-tools {

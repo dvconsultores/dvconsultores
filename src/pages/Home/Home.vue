@@ -21,11 +21,11 @@
 
         <v-slide-group multiple show-arrows>
           <v-slide-item>
-            <div class="herramientas center">
+            <!-- <div class="herramientas center">
               <a href="https://near.org/">
                 <img :src="`${$store.state.baseURL}themes/${$store.state.theme}/near.png`" alt="Logo de Near" />
               </a>
-            </div>
+            </div> -->
           </v-slide-item>
           
           <v-slide-item v-for="(item, index) in herramientas" :key="index">
@@ -80,7 +80,7 @@
       <section id="content" class="divcol center">
         <!-- Proyecto P2P -->
         <v-card color="var(--bg-card)">
-          <img :src="`${$store.state.baseURL}themes/${$store.state.theme}/logonear (2).png`" alt="Logo Near" />
+          <img src="@/assets/icons/logop2p.png" alt="Logo Near" />
 
           <div class="div2">
             <span class="titleProyectos">NEAR P2P DEX</span>
@@ -106,7 +106,7 @@
 
         <!-- Proyecto FREE HORSES -->
         <v-card color="var(--bg-card)">
-          <img :src="`${$store.state.baseURL}themes/${$store.state.theme}/generic-logo.png`" alt="Logo Generico" />
+          <img class="logoFree" :src="`${$store.state.baseURL}themes/${$store.state.theme}/logofreehorses.svg`" alt="Logo Generico" />
 
           <div class="div2">
             <span class="titleProyectos">FREE HORSES</span>
@@ -271,6 +271,11 @@ export default {
       equipoTool: [],     
 
       herramientas: [
+        {
+          value: 0,
+          img: require("../../../public/themes/dark/near.png"),
+          to: 'https://near.org/',
+        },
         {
           value: 1,
           icon: 'mdi-language-rust',

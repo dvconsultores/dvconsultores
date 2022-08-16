@@ -7,14 +7,17 @@
     </v-row>
 
     <aside id="container-controls" class="space">
-      <v-btn v-for="(item,i) in dataControls" :key="i" class="botones" small @click="dataControls.forEach(e=>{e.active=false});item.active=true"
+      <!-- <v-btn v-for="(item,i) in dataControls" :key="i" class="botones" small  @click="dataControls.forEach(e=>{e.active=false});item.active=true"
           :class="{active:item.active}">
         {{ $t(item.name) }}
-      </v-btn>
+      </v-btn> -->
+      <v-btn class="botones" small @click="verEstatus('all')">{{$t('all')}}</v-btn>       
+      <v-btn class="botones" small @click="verEstatus('culminado')">{{$t('concluidos')}}</v-btn>
+      <v-btn class="botones" small @click="verEstatus('en proceso')">{{$t('enProceso')}}</v-btn>
     </aside>
 
     <section class="wrapper divcol">
-      <v-sheet v-for="(item, index) in $t('proyectos')" v-bind:key="index" color="transparent">
+      <v-sheet v-for="(item, index) in proyectosEspejo" v-bind:key="index" color="transparent">
         <img class="logo" :src="item.logo" alt="Logo Generico">
         
         <v-card>
@@ -23,9 +26,12 @@
               <a class="center" :href="item.urlRedSocial1">
                 <img class="center" :src="item.redSocial1" alt="logo redes sociales">
               </a>               
-              <a dark class="center" :href="item.urlRedSocial2">
-                <img :src="item.redSocial2" alt="logo redes sociales">
-              </a>              
+              <!-- <a class="center" :href="item.urlRedSocial2">
+                <img :src="item.redSocial2" alt="logo redes sociales">                
+              </a>   -->
+              <a class="center" :href="item.urlRedSocial2">
+                <v-icon dark>{{item.redSocial2}}</v-icon>
+              </a>            
             </div>
 
             <div class="divcol mt-6" style="gap:.2em">
@@ -58,12 +64,9 @@
  export default {
   name: "Proyectos",
   i18n: require("./i18n"),
-  components: {    
-  
-  },
-  mounted() {},
-  data() {
+  data() {    
     return {
+      proyectosEspejo: [],
       dataControls: [
         { name: "all", active: true },
         { name: "concluidos", active: false },
@@ -71,10 +74,24 @@
       ]
     };
   },
-  methods: {
-    
-  },
+  mounted() {
+    this.proyectosEspejo= this.$t('proyectos');
+  },  
+  methods: {   
+  verEstatus(estatus) {
+    this.proyectosEspejo = []
+    this.$t('proyectos').forEach(item => {
+        if(item.status === estatus) {
+          this.proyectosEspejo.push(item)
+        } else if(estatus === 'all') {
+          this.proyectosEspejo = this.$t('proyectos')
+        }
+    })
+   }, 
+  },  
 };
+  
+
 </script>
 
 <style src="./Proyectos.scss" lang="scss"></style>
