@@ -1553,7 +1553,7 @@ font-style: normal;
 #proyectos {
   max-width: 66.1875em;
   margin-inline: auto;
-  .subtitles {font-size: 3em !important;font-weight: 700 !important}
+  .subtitles {padding-bottom: 25px; font-weight: 700 !important}
   #content {
     & > .v-card {
       display: flex !important;
@@ -1610,11 +1610,11 @@ font-style: normal;
     width: 100%;
     margin-inline: auto;
   }
-  .subtitles {
-    font-size: 3em;
-    font-weight: bold;
+  .subtitles {    
+    font-weight: bold;    
   }
   .wrapper {
+    padding-top: 15px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 14.875em), 1fr));
     gap: 2em;

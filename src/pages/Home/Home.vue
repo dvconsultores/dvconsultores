@@ -41,7 +41,7 @@
     </aside>
 
     <!-- seccion 2 -->
-    <section id="servicios" class="pt-16 pb-16">
+    <section id="servicios" class="pt-16 pb-10">
       <span class="subtitles">{{ $t("subtitleServicios") }}</span>
 
       <aside class="Servicios1 divcol">
@@ -70,7 +70,7 @@
     </section>
 
     <!-- seccion 3 -->
-    <aside id="proyectos" style="margin-block: 10%">
+    <aside id="proyectos" style="margin-block: 5%">
       <v-row>
         <v-col class="center pb-10">
           <span class="subtitles">{{ $t("proyectosExi") }}</span>
