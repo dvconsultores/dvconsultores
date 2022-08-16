@@ -31,7 +31,7 @@
           <v-slide-item v-for="(item, index) in herramientas" :key="index">
             <div v-bind:key="index" class="herramientas center">
               <a :href= "item.to">
-                <v-icon color="grey darken-1" style="font-size: 90px">{{item.icon}}</v-icon>                                
+                <v-icon color="grey" style="font-size: 90px">{{item.icon}}</v-icon>                                
                 <v-img :src="item.img" />
               </a>
             </div>
