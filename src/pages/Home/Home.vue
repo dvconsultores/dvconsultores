@@ -180,8 +180,10 @@
           </aside>
           <v-row>
             <v-col>
-              <a href=""><img class="tamTwitter" :src="item.twitter" alt="Logo twitter" /></a>
-              <a :href="item.urlLinkedin" target="_blank" rel="noopener noreferrer"><img class="tamLinkedin" :src="item.linkedin" alt="Logo linkedin" /></a>                  
+              <a href="#/"><img class="tamTwitter" :src="item.twitter" alt="Logo twitter" /></a>
+              <a :href="item.urlLinkedin" target="_blank" rel="noopener noreferrer">
+                <img class="tamLinkedin" :src="item.linkedin" alt="Logo linkedin" />
+              </a>                  
             </v-col>
           </v-row>
         </v-card>
