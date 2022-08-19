@@ -30,9 +30,9 @@
           
           <v-slide-item v-for="(item, index) in herramientas" :key="index">
             <div v-bind:key="index" class="herramientas center">
-              <a :href= "item.to">
+              <a :href= "item.to" target="_blank" rel="noopener noreferrer">
                 <v-icon color="grey" style="font-size: 90px">{{item.icon}}</v-icon>                                
-                <v-img :src="item.img" />
+                <v-img :src="item.img"/>
               </a>
             </div>
           </v-slide-item>
@@ -85,9 +85,11 @@
           <div class="div2">
             <span class="titleProyectos">NEAR P2P DEX</span>
             <p class="parrafoProyectos">{{ $t("parrafoProyecto1") }}</p>
-            <div class="div3 center">
-              <a href="https://nearp2p.com/"><v-icon>mdi-arrow-right</v-icon></a>              
-            </div>
+            <a href="https://nearp2p.com/" target="_blank" rel="noopener noreferrer">
+              <div class="div3 center">              
+                <v-icon>mdi-arrow-right</v-icon>                      
+              </div>
+            </a>      
           </div>
         </v-card>
 
@@ -98,9 +100,11 @@
           <div class="div2">
             <span class="titleProyectos">DEFIX3</span>
             <p class="parrafoProyectos">{{ $t("parrafoProyecto2") }}</p>
-            <div class="div3 center">
-              <a href="https://defix3.com/#/"><v-icon>mdi-arrow-right</v-icon></a>
-            </div>
+            <a href="https://defix3.com/#/" target="_blank" rel="noopener noreferrer">
+              <div class="div3 center">              
+                <v-icon>mdi-arrow-right</v-icon>              
+              </div>
+            </a>
           </div>
         </v-card>
 
@@ -111,9 +115,11 @@
           <div class="div2">
             <span class="titleProyectos">FREE HORSES</span>
             <p class="parrafoProyectos">{{ $t("parrafoProyecto3") }}</p>
-            <div class="div3 center">
-              <a href="https://freehorses.io/#/"><v-icon>mdi-arrow-right</v-icon></a>
-            </div>
+            <a href="https://freehorses.io/#/" target="_blank" rel="noopener noreferrer">
+              <div class="div3 center">              
+                <v-icon>mdi-arrow-right</v-icon>              
+              </div>
+            </a>
           </div>
         </v-card>
       </section>
@@ -175,7 +181,7 @@
           <v-row>
             <v-col>
               <a href=""><img class="tamTwitter" :src="item.twitter" alt="Logo twitter" /></a>
-              <a href=""><img class="tamLinkedin" :src="item.linkedin" alt="Logo linkedin" /></a>                  
+              <a :href="item.urlLinkedin" target="_blank" rel="noopener noreferrer"><img class="tamLinkedin" :src="item.linkedin" alt="Logo linkedin" /></a>                  
             </v-col>
           </v-row>
         </v-card>

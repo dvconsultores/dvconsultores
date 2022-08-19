@@ -23,13 +23,11 @@
         <v-card>
           <aside id="content" class="divcol col-lg-8">
             <div id="social" class="center" style="gap:1em">
-              <a class="center" :href="item.urlRedSocial1">
-                <img class="center" :src="item.redSocial1" alt="logo redes sociales">
+              <a class="center" :href="item.urlRedSocial1" target="_blank" rel="noopener noreferrer">
+                <v-icon dark>{{item.redSocial1}}</v-icon>                
               </a>               
-              <!-- <a class="center" :href="item.urlRedSocial2">
-                <img :src="item.redSocial2" alt="logo redes sociales">                
-              </a>   -->
-              <a class="center" :href="item.urlRedSocial2">
+              
+              <a class="center" :href="item.urlRedSocial2" target="_blank" rel="noopener noreferrer">
                 <v-icon dark>{{item.redSocial2}}</v-icon>
               </a>            
             </div>
@@ -49,7 +47,9 @@
             </div>
 
             <div class="linkDeAcceso end">
-              <a :href="item.to"><span>{{ $t("linkAcceso") }} <v-icon>mdi-arrow-right</v-icon></span></a>
+              <a :href="item.to" target="_blank" rel="noopener noreferrer">
+                <span>{{ $t("linkAcceso") }} <v-icon>mdi-arrow-right</v-icon></span>
+              </a>
             </div>
           </aside>
           

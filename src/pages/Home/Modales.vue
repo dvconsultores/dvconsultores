@@ -6,18 +6,15 @@
 
         <v-card id="container-services">
           <v-card id="container-title">
-            <span class="title-1">SERVICES</span>
-            <span class="title-2">LOREM IPSUM</span>
+            <span class="title-1">{{$t('subtitleServicios')}}</span>
+            <span class="title-2">{{$t('titleModal')}}</span>
 
             <img id="decoration" src="@/assets/images/decoration-services.png" alt="decoration">
           </v-card>
 
           <img class="refimage" src="../../assets/images/Mask group (4).png" alt="imagen" />
           <p class="textoDialog" style="margin: 0">
-            Con más de 10 años en el mercado, 
-            hemos tenido la oportunidad de llevar
-            de manera satisfactoria proyectos de iot,
-             documentación y procesos de auditoria.
+            {{$t('parrafoModal')}}
           </p>
         </v-card>
       </v-sheet>
