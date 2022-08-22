@@ -10,8 +10,12 @@
           <h1 class="mb-0" v-html="$t('title')"></h1>
           
           <div id="container-cubitos">
-            <img class="cubitoPequeño1" src="../../assets/images/Group 44.png" alt="cubo secundario" />
-            <img class="cubitoPequeño2" src="../../assets/images/Group 45.png" alt="cubo secundario" />
+            <a href="https://discord.gg/vX5VqWCV7q" target="_blank" rel="noopener noreferrer">
+              <img class="cubitoPequeño1" src="../../assets/images/Group 44.png" alt="cubo secundario" />
+            </a>
+            <a href="https://t.me/+SVU-2QEMeMsyNDMx" target="_blank" rel="noopener noreferrer">
+              <img class="cubitoPequeño2" src="../../assets/images/Group 45.png" alt="cubo secundario" />
+            </a>
           </div>
         </div>
       </section>

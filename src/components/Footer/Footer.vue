@@ -4,14 +4,18 @@
       <span class="subtitles">{{ $t("dudas") }}</span>
 
       <div class="center">
-        <div class="center">
-          <span class="nameEquipo pr-3">DISCORD</span>
-          <img src="../../assets/images/SM 1.png" alt="" />
-        </div>
-        <div class="center">
-          <span class="nameEquipo pl-6 pr-3">TELEGRAM</span>
-          <img src="../../assets/images/SM 2.png" alt="" />
-        </div>
+        <a href="https://discord.gg/vX5VqWCV7q" target="_blank" rel="noopener noreferrer">
+          <div class="center">
+            <span class="nameEquipo pr-3">DISCORD</span>
+            <img src="../../assets/images/SM 1.png" alt="" />
+          </div>
+        </a>
+        <a href="https://t.me/+SVU-2QEMeMsyNDMx" target="_blank" rel="noopener noreferrer">
+          <div class="center">
+            <span class="nameEquipo pl-6 pr-3">TELEGRAM</span>
+            <img src="../../assets/images/SM 2.png" alt="" />
+          </div>
+        </a>
       </div>
     </aside>
 
