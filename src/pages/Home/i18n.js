@@ -155,7 +155,7 @@ module.exports = {
             linkedin: require("@/assets/images/linkedin.png"),
             urlLinkedin:'https://www.linkedin.com/in/fritz-m-wagner/',
             twitter: require("@/assets/images/TWITTER.png"),            
-            cargo: "Blockchain Industry Entrepreneur",
+            cargo: "Blockchain Industry Entrepreneur & CEO P2P NEAR DEX",
             descripcion: 'Entrepreneurial and innovative vision with analysis capacity for decision making, leadership and team management. Responsible for recruiting talent, negotiation and motivation capacity.',
           },
           {
@@ -334,7 +334,7 @@ module.exports = {
             linkedin: require("@/assets/images/linkedin.png"),
             urlLinkedin:'https://www.linkedin.com/in/fritz-m-wagner/',
             twitter: require("@/assets/images/TWITTER.png"),            
-            cargo: "Blockchain Industry Entrepreneur",
+            cargo: "Blockchain Industry Entrepreneur & CEO P2P NEAR DEX",
             descripcion: 'Visión emprendedora e innovadora con capacidad de análisis para la toma de decisiones, liderazgo y gestión de equipos. Responsable de la captación de talento, capacidad de negociación y motivación.',
           },
           {
